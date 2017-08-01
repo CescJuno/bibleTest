@@ -14,6 +14,8 @@
 		8C4B93DF1F3003D6000BBA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B93DD1F3003D6000BBA9E /* LaunchScreen.storyboard */; };
 		8C4B93EA1F3003D6000BBA9E /* bibleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B93E91F3003D6000BBA9E /* bibleTestTests.swift */; };
 		8C4B93F51F3003D6000BBA9E /* bibleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B93F41F3003D6000BBA9E /* bibleTestUITests.swift */; };
+		8C4B94031F300561000BBA9E /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B94021F300561000BBA9E /* CustomWebView.swift */; };
+		8C4B94061F300581000BBA9E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4B94051F300581000BBA9E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8C4B93F01F3003D6000BBA9E /* bibleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bibleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4B93F41F3003D6000BBA9E /* bibleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibleTestUITests.swift; sourceTree = "<group>"; };
 		8C4B93F61F3003D6000BBA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4B94021F300561000BBA9E /* CustomWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
+		8C4B94051F300581000BBA9E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4B94061F300581000BBA9E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				8C4B93E81F3003D6000BBA9E /* bibleTestTests */,
 				8C4B93F31F3003D6000BBA9E /* bibleTestUITests */,
 				8C4B93D21F3003D6000BBA9E /* Products */,
+				8C4B94041F300581000BBA9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				8C4B93DB1F3003D6000BBA9E /* Assets.xcassets */,
 				8C4B93DD1F3003D6000BBA9E /* LaunchScreen.storyboard */,
 				8C4B93E01F3003D6000BBA9E /* Info.plist */,
+				8C4B94021F300561000BBA9E /* CustomWebView.swift */,
 			);
 			path = bibleTest;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				8C4B93F61F3003D6000BBA9E /* Info.plist */,
 			);
 			path = bibleTestUITests;
+			sourceTree = "<group>";
+		};
+		8C4B94041F300581000BBA9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4B94051F300581000BBA9E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +279,7 @@
 			files = (
 				8C4B93D71F3003D6000BBA9E /* ViewController.swift in Sources */,
 				8C4B93D51F3003D6000BBA9E /* AppDelegate.swift in Sources */,
+				8C4B94031F300561000BBA9E /* CustomWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
