@@ -16,6 +16,7 @@
 		8C4B93F51F3003D6000BBA9E /* bibleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B93F41F3003D6000BBA9E /* bibleTestUITests.swift */; };
 		8C4B94031F300561000BBA9E /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B94021F300561000BBA9E /* CustomWebView.swift */; };
 		8C4B94061F300581000BBA9E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4B94051F300581000BBA9E /* WebKit.framework */; };
+		8C4B94081F30060A000BBA9E /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B94071F30060A000BBA9E /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8C4B93F61F3003D6000BBA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4B94021F300561000BBA9E /* CustomWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
 		8C4B94051F300581000BBA9E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8C4B94071F30060A000BBA9E /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				8C4B93DD1F3003D6000BBA9E /* LaunchScreen.storyboard */,
 				8C4B93E01F3003D6000BBA9E /* Info.plist */,
 				8C4B94021F300561000BBA9E /* CustomWebView.swift */,
+				8C4B94071F30060A000BBA9E /* SubViewController.swift */,
 			);
 			path = bibleTest;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				8C4B93D71F3003D6000BBA9E /* ViewController.swift in Sources */,
 				8C4B93D51F3003D6000BBA9E /* AppDelegate.swift in Sources */,
 				8C4B94031F300561000BBA9E /* CustomWebView.swift in Sources */,
+				8C4B94081F30060A000BBA9E /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
