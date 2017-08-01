@@ -47,6 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-204" y="115"/>
         </scene>
         <!--Sub View Controller-->
         <scene sceneID="Mio-RT-lI5">
