@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var btnBack: UIButton!
+    var mainWeb: CustomWebView!
     @IBAction func goPrev(_ sender: Any) {
         mainWeb.goPrev()
     }
-    var mainWeb: CustomWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

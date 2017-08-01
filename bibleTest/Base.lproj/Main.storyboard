@@ -42,6 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="btnBack" destination="pYt-Ws-AZY" id="zyS-59-h3s"/>
+                        <segue destination="xEU-VG-9JP" kind="show" identifier="subview" id="AzP-gh-gYd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
